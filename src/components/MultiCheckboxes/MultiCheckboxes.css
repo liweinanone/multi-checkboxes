@@ -1,0 +1,25 @@
+.multi-checkboxes {
+    display: inline-block;
+}
+
+.multi-checkboxes__label {
+    text-align: center;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.multi-checkbox__columns {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.multi-checkboxes__columns--column {
+    margin-right: 1rem;
+}
+
+.multi-checkboxes__columns--column:last-child {
+    margin-right: 0;
+}
